@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\hyphenpenalty 5000
+\usepackage[left=0.5in,top=0.3in,right=0.5in,bottom=0.2in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{HAOMING JIN} % Your name
+%\address{
+%Address: 3000 SW 35th PL, Apt B301, Gainesville, FL, 32608} % Your address
+%Address: 2283 Hearst Ave, Apt 18, Berkeley, CA, 94709} % Your address
+%Address: 65 Hemlock Circle, Princeton, NJ, 08540} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{Phone: 352-284-6720 \\ E-mail: carterjinhaoming@gmail.com} 
+\address{LinkedIn: www.linkedin.com/in/haoming-jin/ \\ GitHub: https://github.com/carterjin} 
+
+%\address{LinkedIn: www.linkedin.com/in/Haoming-Jin}  % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-1em}
+\begin{rSection}{Education}
+
+{\bf University of Florida, Gainesville, FL, US} \hfill  {\em Aug. 2012 - May. 2020} 
+\\ Ph.D. in Physics, Minor in Materials Science and Engineering \hfill GPA: 3.9/4.0
+%\\ Ph.D. Minor in Materials Science and Engineering\\
+\\{\bf Nanjing University, Nanjing, Jiangsu, China} \hfill  {\em Aug. 2008 - Jul. 2012} 
+\\ Bachelor in Physics \hfill GPA: 3.5/4.0
+\\{\bf Udacity}
+\\ Data Scientist Nanodegree \hfill {\em May. 2020 - Present} 
+\\ Data Analyst Nanodegree \hfill  {\em Mar. 2020}
+
+
+\end{rSection}
+
+
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\vspace{-9pt}
+\begin{rSection}{SUMMARY OF SKILLS}\itemsep -3pt
+\vspace{-3pt}
+\textbf{Programming}: Python (3+ years), Matlab (5+ years), SQL (2 years), C++ (2 years)
+\\
+\textbf{Visualization}: matplotlib, seaborn, tableau
+\\
+\textbf{Technical}: Statistical Analysis (5+ years), Machine Learning (2 years), Data Wrangling
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Technical Strengths}
+%
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Modeling and Analysis \ & AutoCad, Revit, StaadPro \\
+%Software \& Tools & MS Office, Latex \\
+%\end{tabular}
+%
+%\end{rSection}
+\vspace{-9pt}
+\begin{rSection}{Projects} 
+%\vspace{-3pt}
+
+
+\textbf{Price Evaluation with Machine Learning for Airbnb in San Francisco}\hfill {\em Apr - May. 2020}\\
+\vspace{-15pt}
+\begin{rSubsection}{}{}{}{}
+\item Analyzed 12000+ Airbnb listing data in San Francisco using pandas in Jupyter Notebook (Python).
+\item Cleaned and aggregated monthly updated files using pandas, incorporated the geological information to maps using the OpenStreetMap API and folium.
+\item Used matplotlib and seaborn to visualize and present the findings. Evaluated pricing using scikit-learn and Keras with Linear Regression, Random Forest, and Neural Network, achieving 55.4\% $R^2$ score.
+\end{rSubsection}
+
+\vspace{-9pt}
+\textbf{Ford GoBike System Data Exploration} \hfill {\em Apr. 2020}\\
+\vspace{-15pt}
+\begin{rSubsection}{}{}{}{}
+\item Investigated 5.6 million Northern California bike rental records data with pandas.
+\item Made exploratory data analysis on location, rental time, etc, with visualizations using matplotlib and tableau.
+\item Concluded daily rental results were 76\% more on weekdays than weekends, and most of the rentals (70\%) occurred in the morning and afternoon rush hours, corresponding to commute traffic. 
+\end{rSubsection}
+
+\vspace{-9pt}
+\textbf{Twitter WeRateDogs Data Wrangling with AI}\hfill {\em Feb. 2020}\\
+\vspace{-15pt}
+\begin{rSubsection}{}{}{}{}
+\item Acquired 2000+ tweets data on dogs in WeRateDogs twitter archive using the twitter API, and parsed JSON objects to get retweet, favorite counts, etc.
+\item Processed missing values, assessed data quality, and identified dog breeds using CNNs and transfer learning.
+\item Summarized that the golden retriever was the most tweeted dog breed among 150 identified dog breeds, consisting of 7.4\% of all tweets, 45\% more than the second most tweeted dog breed.
+\end{rSubsection}
+
+\vspace{-9pt}
+\textbf{Application Development on Github} \hfill {\em 2016 - 2020}\\
+\vspace{-15pt}
+\begin{rSubsection}{}{}{}{}
+\item {Prime gap calculation with Rabin-Miller Algorithm}  \hspace{3pt} $\bullet$ {Chinese text conversion using pytesseract-OCR}
+\item {Digit challenge using Shunting-yard algorithm} \hspace{29pt} $\bullet$ {Brute force zip password cracking with Python}
+\end{rSubsection}
+
+\end{rSection}
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-12pt}
+\begin{rSection}{EXPERIENCE} 
+\textbf{University of Florida}\hfill {\em Aug. 2012 - May. 2020}\\
+\textit{Graduate Researcher}
+\begin{rSubsection}{}{}{}{}
+%\item Study the prototypical electrical devices composing interfaces between 2D layered materials and resistive switching materials or semiconductors.
+%\item  Initiate research topics, design experiment processes, participate in a collaboration project involving 13 experimental and theoretical groups in 3 research institutes.
+\item Over five years experience of conducting data analysis and visualization on experiment output. Acquired critical parameters of novel prototypical electrical devices with linear regression and curve-fitting techniques using Matlab and Origin on over 15,000 sets of data. Used statistical models and A/B testing to test hypotheses. Presented findings on weekly group meetings and five global symposiums.
+\end{rSubsection}
+\end{rSection}
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+% Extra-Curricular
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{LEADERSHIP EXPERIENCE}
+%\begin{rSubsection}{}{}{}{}
+%\item Lead design, installation, and operation of the inert air glove box and 2D material dry transfer system, ion gun etching system, and thermal annealing system.
+%\item Take charge of user training and instrument usage coordination of Quantum Design PPMS, SQUID system, and thermal evaporation deposition system. Maintain related cryogenic and vacuum systems. 
+%\item Supervise safety regulations and hazardous waste management.
+%\item Coordinate with engineers from different departments and companies to design and build custom electrical and mechanical equipment. Including parts for a custom integrated sputter/etch/measure system in high vacuum (SHIVA), with temperature and magnetic field altering abilities.
+%\item Manage lab budgets, handle lab supplies, and equipment purchases with over ten companies.
+%\item Instruct over 200 students on classical mechanics, electrodynamics and circuits, and advanced experiments such as cosmic muon detection, XRD, and optical tweezers, and receive an excellent rating.
+%\end{rSubsection}
+%\item Trained and disciplined in National Cadet Corps (NCC), IIT Kanpur for a year.
+ %\item  Participated in Vijyoshi Camp 2012 organized at the Indian Institute of Science, Bangalore.
+ %\item Won 2nd position in Kho-Kho in Intramurals conducted by Physical Education Section, IIT Kanpur.
+ %\item Pursued French as a second language during secondary school from Grade 6 to Grade 10. I also participated in the French Song Competition and French G.K. Quiz in Class 10th. %
+
+%\end{rSection}
+\vspace{-12pt}
+\begin{rSection}{Certifications}\itemsep -3pt
+\vspace{-12pt}
+\item Coursera: Machine Learning (with Matlab), Deep Learning (with Python), Advanced R Programming,\\ 
+\hspace*{4.3em} Algorithm Specialization.
+\item Udemy: The Complete SQL Bootcamp
+\item Certified LabVIEW Associate Developer.
+\item Second prize in 8th Nanjing University ACM programming competition.
+\end{rSection}
+
+%\vspace{-9pt}
+%\begin{rSection}{Publications} \itemsep -3pt
+%\vspace{-9pt}
+%\item ``Improved memristive switching of graphite/Nb:SrTiO$_3$ interfaces by tuning Fermi levels and dielectric constants'', Xiaochen Zhu, \textbf{Haoming Jin}, Ang J. Li, Todd Schumann, and Arthur F. Hebard, J. Appl. Phys. B \textbf{124}, 152120 (2018).
+%\end{rSection}
+
+\end{document}
